@@ -315,7 +315,7 @@ public class Server extends JFrame implements Runnable, KeyListener, MouseListen
 	}
 		
 	
-						//RECEIVED AND SEND//
+						//RECEIVE AND SEND//
 	private void receiveBoard()
 	{
 		int[][] ennemyBoard= new int[10][10];
