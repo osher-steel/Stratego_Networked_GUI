@@ -355,7 +355,7 @@ public class Client extends JFrame implements Runnable, KeyListener, MouseListen
         { 													 // events too fast
            if(numberEntered(e.getKeyCode()))
         	   board.fillSetup(e.getKeyCode());
-           else if(e.getKeyCode()==Utils.KEY_D && setupDone && board.D_KeyPressed())
+           else if(e.getKeyCode()==Utils.ENTER && setupDone && board.D_KeyPressed())
            {
        		if(!restart)
     		{
