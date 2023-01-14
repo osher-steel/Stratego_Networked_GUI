@@ -427,7 +427,7 @@ public class Server extends JFrame implements Runnable, KeyListener, MouseListen
            {
         	   board.fillSetup(e.getKeyCode());
            }
-           else if(e.getKeyCode()==Utils.KEY_D && !mySetupDone && board.D_KeyPressed())
+           else if(e.getKeyCode()==Utils.ENTER && !mySetupDone && board.D_KeyPressed())
            {
 			   mySetupDone=true;
 			   board.setupDone();
