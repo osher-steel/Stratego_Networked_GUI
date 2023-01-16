@@ -5,7 +5,7 @@ The program is meant to be packaged in two jar files, one for the server or play
 
 How to Play:
 
--Server needs to be executed first and the player can start setting up his starting setup while waiting for client to connect.
+-Server needs to be executed first and the player can start setting up his pieces while waiting for client to connect.
 
 -Client is then excuted by the second player and can start setting up his starting setup.
 
